@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    font-size: default;
+}
+
+.display_details{
+    width: 100%;
+    margin-top: 50px;
+}
+
+table{
+    width: 100%;
+
+}
+
+.dataTable{
+    margin-top:25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-collapse: collapse;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: rgb(177, 177, 177);
+}
+
+td .status{
+    padding:10px;
+    width:100%;
+    text-align: justify;
+    margin:5px;
+    border-radius: 5px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#search_filter{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+}
+
+#search_filter > div, #add_job > div{
+    margin: 5x;
+    padding: 10px;
+    
+}
+
+
+.filter, input[type=search], #jobModal{
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=search]{
+    background-color: rgb(221, 221, 221)
+}
+
+input[type=search]:focus{
+    outline-style: solid ;
+    outline-color: rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+}
+
+.filter{
+    background-color: none;
+    
+}
+
+
+
+thead th{
+    padding: 10px;
+}
